@@ -1,0 +1,37 @@
+/* Article card styles */
+.article-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  width: calc(33.33% - 20px); 
+}
+
+.article-card img {
+  max-width: 80%;
+  height: auto;
+}
+
+.article-card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.article-card p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Style the star ratings */
+.article-rating {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Style the author's name */
+.author {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #666;
+}
